@@ -43,6 +43,7 @@ class PersonaControlador extends Controller
         //comprobar que existan datos de seguro
         // if($persona->codigo_seguro !== null) { $resultado=1;}
         // else { $resultado=0; }
+		//CAMBIADO POR SPARTAN
         $codigo_transaccion=session()->get('codigo_transaccion');
         switch ($codigo_transaccion) {
 
