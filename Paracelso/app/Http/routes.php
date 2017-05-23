@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+//COMENTARIO SPARTAN COMO COLABORADOR EN MASTER
 Route::get('/', function () {
     return view('welcome');
 });
